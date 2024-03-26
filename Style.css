@@ -1,0 +1,318 @@
+#main{
+    height: 100%;
+    width: 100%;
+}
+#navbar{
+    height: 12vh;
+    width: 100%;  
+    background-color: orange;
+    padding: 5px;
+    float: left;
+    justify-content: space-between;   
+}
+.navbar-brand{
+    display: inline-block;
+    width: auto;
+    padding: .5rem -3rem;
+    clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+}
+.green span{
+    background-color: orange;
+    display: inline-block;
+
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);   
+} 
+#carouselExample{
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fas {
+  margin-left: 75px;
+}
+.organic{
+
+    text-align: center;
+}
+.organic span{
+    background: orange;
+    color: white;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+    
+}
+#specials{
+    display: flex;
+    justify-content: center;
+    margin: -80px;
+}
+.heading span{
+    background: orange;
+    color: WHITE;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+}
+.nuts span{
+    background: orange;
+    color: white;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+}
+.Milets span{
+    background:orange;
+    color: WHITE;
+    display: inline-block;
+    padding: .5rem 3rem;
+    clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
+    gap: 32px;
+    /* background-color:rgb(166, 91, 91); */
+     padding: 10px; 
+    transition: .5s linear;
+  }
+  .grid-container> div {
+    background-color:goldenrod;
+    border: 1px solid black;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
+text-align: center;
+    font-size: 30px;
+  }
+  .grid-container> div:hover{
+    transform: scale(1.03);
+  }
+  .view-details-btn:hover{
+    transform:scale(2.0) ;
+  }
+  @media(max-width:768px){
+    .grid-container{
+        padding: 20px;
+    }
+  }
+  .view-details-btn{
+    border-radius: 8px 8px 8px 8px;
+    text-align: center;
+  }
+    del {
+    margin-left: 20px; 
+} 
+  b{
+    margin-left: 10px;
+} 
+.view-details-btn{
+del {
+    margin-left: 20px; 
+   
+} 
+  b{
+    margin-left: 10px;
+} 
+}
+
+.order::after{
+    color: white;
+    background-color: orange;
+}
+.order:hover{
+    color: white;
+    background-color: orange;
+
+}
+/* .items{
+    height: 400px;
+    width: 50%;
+    margin: 100px 0 0 200px;
+} */
+.active{
+    margin: 40px 0  0 180px;
+}
+.right{
+    float: right;
+    margin: -300px 0 0 -500px;
+}
+/* .star{
+    color: rgb(231, 156, 16);
+}
+.star span{
+    color: rgb(240, 161, 25);
+} */
+.price{
+    margin-top: 20px ;
+    font-size: 25px;
+}
+.buy{
+    margin-top: 30px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+}
+/* .view-details-btn{
+    position: absolute;
+    text-decoration: none;
+    height: 30px; width: 150px;
+    border: 2px solid black;
+    background-color: rgb(39, 189, 39);
+    color: white;
+    margin: 50px 0 0 90px;
+    text-align: center;
+    border-radius: 5px;
+} */
+.container{
+    height: 300px;
+    width: 100px;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+#order{
+    width: 200px;
+    margin: 150px 0 0 500px;
+    background-color:  rgb(216, 217, 201);
+}
+#item-details{
+    border: 10px solid rgb(118, 184, 151);
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color:rgb(201, 146, 78);
+    display: flex;
+}
+#item-image{
+    height: 450px;
+    width:400px ;
+    margin: 20px 0 0 10px;
+    float: left;
+}
+#name{
+    float: right;
+}
+#item-name{
+    font-size: 50px;
+    margin: 50px 0 0 30px;
+}
+#item-del{
+    font-size: 30px;
+    color: red;
+    position: absolute;
+    margin: 20px 0 0 30px;
+}
+#item-price{
+    font-size: 30px;
+    margin: 85px 0 0 30px;
+    color: rgb(35, 166, 218);
+}
+#item-rating{
+    margin: 35px 0 0 30px;
+    color:orangered;
+}
+#name a{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
+    position: absolute;
+    margin: 100px 0 0 100px;
+     width: 150px;
+    border-radius: 8px 8px 8px 8px;
+    /* background-color: green;
+    color: WHITE;
+    border: black; */
+    align-content: center;
+   text-align: center; 
+}
+
+#name a:hover{
+transform: scale(2.0);
+}
+#address{
+    height: 600px;width: 500px;
+    border: 2px solid black;
+    margin: 50px 0 0 500px;
+}
+.enter{
+    margin: 10px 0 0 155px;
+}
+#form{
+    margin: 30px 0 0 50px;
+}
+input::placeholder{
+    width: 150px;
+}
+/* #submit{
+    height: 200px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px 0 0 500px;
+    
+} */
+.form{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
+    border: 3px solid black;
+    width: 400px;
+    /* height: 500px; */
+    text-align: center;
+    background-color: aliceblue;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    /* background-color: rgb(229, 165, 86); */
+}
+/* .bdy{
+   
+    background-image: url(e:\organicfile.jpg);
+    height: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+} */
+.submit:hover{
+    transform: scale(2.0);
+    border-radius: 8px 8px 8px 8px;
+}
+.success{
+    width: 500px;
+    border: 3px solid black;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.congrates:hover{
+    border-radius: 8px 8px 8px 8px;
+    transform: scale(2.0);
+}
+.carousel-inner{
+    width: 100%;
+    height: 80vh;
+}
+.card-group{
+    gap: px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: yellowgreen;
+}
+.footer-col{
+    width: 50%;
+    padding: 0 30px;
+}
+.viewdetails{
+    grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
+}
+#con{
+    margin-left: 15px;
+}
